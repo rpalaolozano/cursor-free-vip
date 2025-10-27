@@ -12,7 +12,7 @@ EMOJI = {
 class AccountManager:
     def __init__(self, translator=None):
         self.translator = translator
-        self.accounts_file = 'cursor_accounts.txt'
+        self.accounts_file = 'cursor_accounts.java'
     
     def save_account_info(self, email, password, token, total_usage):
         """Save account information to file"""
